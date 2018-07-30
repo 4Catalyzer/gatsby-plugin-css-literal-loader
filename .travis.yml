@@ -1,10 +1,12 @@
-sudo: false
-
 language: node_js
-node_js:
-  - '9'
-  - '8'
 cache: yarn
+notifications:
+  email: false
+node_js:
+  - '10'
+  - '8'
+after_success:
+  - yarn travis-deploy-once "yarn semantic-release"
 branches:
   only:
     - master
