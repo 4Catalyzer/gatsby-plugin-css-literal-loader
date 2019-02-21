@@ -64,4 +64,4 @@ plugins: [
 
 ** Other thing **
 
-I think you see the patern here :)
+I think you see the pattern here :)
