@@ -36,7 +36,7 @@ plugins: [
 
 `gatsby-plugin-css-literal-loader` pairs nicely with Sass, Less, PostCSS or any other preprocessor, many of which already have Gatsby plugins.
 
-** Sass **
+#### Sass
 
 ```javascript
 // in gatsby-config.js
@@ -49,12 +49,12 @@ plugins: [
 ];
 ```
 
-** Less **
+#### Less
 
 ```javascript
 // in gatsby-config.js
 plugins: [
-  'gatsby-plugin-sass'
+  'gatsby-plugin-less'
   {
     resolve: `gatsby-plugin-css-literal-loader`,
     options: { extension: '.module.less' },
@@ -62,6 +62,6 @@ plugins: [
 ];
 ```
 
-** Other thing **
+#### Other thing
 
 I think you see the pattern here :)
